@@ -60,7 +60,7 @@ document.addEventListener("keydown", function(event) {
 
 function sendMessagephp(message) {
     var xhr = new XMLHttpRequest();
-    var url = 'https://api.pamickweb.com/API/chat.php?server=server1&text=' + encodeURIComponent(message);
+    var url = 'https://api-free.ir/api/black-box/?text=' + encodeURIComponent(message);
     xhr.open('GET', url, true);
     xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
     xhr.onreadystatechange = function() {

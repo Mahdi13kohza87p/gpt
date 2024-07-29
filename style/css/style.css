@@ -1,0 +1,137 @@
+/*
+اپن شد توسط چنل پامیک و اکس دی 
+اصکی میری منبع بزن!!
+
+@PaMicK - @XdRoBotCh
+*/
+
+@font-face {
+    font-family: avxd;
+    src: url(../font/xbold.woff2);
+}
+
+#chat_title {
+    color: #e1e7e6;
+}
+
+#home_page {
+    background: linear-gradient(to left, rgb(41, 41, 41), rgb(0, 0, 0));
+}
+
+#home_page .container .body {
+    border: 1px solid #10a37f;
+    border-radius: 15px;
+    margin-top: 5px;
+    background-color: rgb(29, 29, 29);
+}
+
+#home_page .container .body .header {
+    margin: 9px;
+    font-family: avxd;
+}
+
+.header .header-for-header {
+    width: 33px;
+}
+
+.hr hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.footer {
+    margin-bottom: 9px;
+}
+
+.chat-body {
+    padding: 10px;
+    min-height: 411px;
+    max-height: 411px;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.74);
+    border-top-left-radius: 22px;
+    margin-left: 9px;
+    margin-right: 9px;
+    text-align: right;
+}
+
+.xd-card {
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.chat-body::-webkit-scrollbar {
+  width: 9px;
+  /* opacity: 0.0;  */
+}
+
+.chat-body::-webkit-scrollbar-track {
+  background-color: #757575;
+}
+
+.chat-body::-webkit-scrollbar-thumb {
+  background-color: #10a37f;
+}
+
+.chat-body::-webkit-scrollbar-thumb:hover {
+  background-color: #03503d;
+}
+
+/*
+اپن شد توسط چنل پامیک و اکس دی 
+اصکی میری منبع بزن!!
+
+@PaMicK - @XdRoBotCh
+*/
+
+.sendbtn {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #10a37f;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 100%;
+}
+
+.input1 {
+    width: 100%;
+    text-align: right;
+}
+
+.baby-chat-user {
+    background-color: #10a37f;
+    border-radius: 22px;
+    padding: 3px;
+    height: auto;
+    margin-top: 5px;
+    display: block;
+    color: rgb(2, 2, 2);
+    font-family: avxd;
+}
+
+.baby-chat-bot {
+    background-color: #19312b;
+    border-radius: 22px;
+    padding: 3px;
+    height: auto;
+    margin-top: 5px;
+    display: block;
+    color: white;
+    font-family: avxd;
+}
+
+#chat_title img {
+    cursor: pointer;
+    width: 20px;
+}
+
+/*
+اپن شد توسط چنل پامیک و اکس دی 
+اصکی میری منبع بزن!!
+
+@PaMicK - @XdRoBotCh
+*/
